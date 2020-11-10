@@ -1,6 +1,11 @@
 # TorRecon
 
-CLI for searching multiple engines for releated .onion sites and checks they are live
+CLI for searching multiple engines for releated .onion sites and checks they are live and saves to a file
+
+### Supported Engines
+ahmia
+torch
+not_evil - dehind --evil flag due to session token which makes parsing slow
 
 
 # Install
