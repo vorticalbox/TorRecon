@@ -62,6 +62,7 @@ if __name__ == '__main__':
             except ValueError as e:
                 logger.error(e)
             except Exception as exc:
+                # I got lazy
                 logger.error(f'some error with {url}')
             else:
                 line = f'{url}:{title}\n' if args.title else f'{url}\n'
