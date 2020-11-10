@@ -1,0 +1,5 @@
+requests
+logzero
+BeautifulSoup4
+pysocks
+html5lib
